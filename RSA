@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Algorithm Code</title>
+    <!-- Optional: Add CSS styles for code block formatting -->
+    <style>
+        /* Example CSS styles for code blocks */
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>RSA Algorithm Code</h1>
+
+<p>Below is the code for the RSA algorithm:</p>
+
+<pre><code>
+// Example RSA algorithm code
+function generateKeyPair() {
+    // Your RSA key pair generation code here
+}
+
+function encrypt(message, publicKey) {
+    // Your RSA encryption code here
+}
+
+function decrypt(ciphertext, privateKey) {
+    // Your RSA decryption code here
+}
+
+// Example usage
+const { publicKey, privateKey } = generateKeyPair();
+const message = "Hello, World!";
+const ciphertext = encrypt(message, publicKey);
+const plaintext = decrypt(ciphertext, privateKey);
+console.log("Original Message:", message);
+console.log("Encrypted Message:", ciphertext);
+console.log("Decrypted Message:", plaintext);
+</code></pre>
+
+</body>
+</html>
